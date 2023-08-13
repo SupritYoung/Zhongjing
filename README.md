@@ -1,5 +1,5 @@
 
-# Zhongjing: Enhancing the Chinese Medical Capabilities of Large Language Model through Expert Feedback and Real-world Multi-turn Dialogue
+# 仲景：首个实现从预训练到 RLHF 全流程训练的中文医疗大模型
 <div align="center">
   <img src="assets/logo.jpg" alt="项目标志" width="25%">
 </div>
