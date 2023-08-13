@@ -63,6 +63,7 @@ Zhongjing 的训练过程如下图所示：
 
 ## 致谢
 
+- 我们使用的 [RLHF 工具](https://github.com/SupritYoung/RLHF-Label-Tool)。
 - 特别感谢 [hiyouga](https://github.com/hiyouga/LLaMA-Efficient-Tuning) 提供的 LLaMA 微调框架。
 - 本项目基于 [Ziya-LLaMA](https://huggingface.co/IDEA-CCNL/Ziya-LLaMA-13B-v1)。
 - 感谢提供 [ChatMed_Consult_Dataset](https://huggingface.co/datasets/michaelwzhu/ChatMed_Consult_Dataset) 数据集的创作者。
