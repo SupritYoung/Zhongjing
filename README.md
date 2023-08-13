@@ -1,7 +1,7 @@
 
 # Zhongjing: Enhancing the Chinese Medical Capabilities of Large Language Model through Expert Feedback and Real-world Multi-turn Dialogue
 <div align="center">
-  <img src="assets/logo.jpg" alt="项目标志" width="50%">
+  <img src="assets/logo.jpg" alt="项目标志" width="25%">
 </div>
 
 ## 概述
@@ -12,7 +12,7 @@ Zhongjing-LLaMA 是首个采用预训练、有监督微调和强化学习与人�
 
 此外，我们精心构建了一个包含 70,000 条完全来源于真实医患对话的多轮对话数据集。该数据集包含大量医生主动提问的语句，有助于提升模型的主动医疗询问能力。
 
-更多关于我们工作的详细信息，请参阅我们的论文：[Zhongjing: 通过专家反馈和真实多轮对话提升大型语言模型在中文医疗领域的能力](https://arxiv.org/abs/2308.03549)。
+更多关于我们工作的详细信息，请参阅我们的论文：[Zhongjing: Enhancing the Chinese Medical Capabilities of Large Language Model through Expert Feedback and Real-world Multi-turn Dialogue](https://arxiv.org/abs/2308.03549)。
 
 ## 更新
 
@@ -48,7 +48,8 @@ Zhongjing 的训练过程如下图所示：
 ## 数据
 
 - CMtMedQA：包含 70,000 条多轮对话的数据集，来源于真实医患交流。
-- [CMtMedQA_test](https://huggingface.co/datasets/Suprit/CMtMedQA_test_v1)：包含 1000 条用于评估模型多轮对话能力的测试集，其中还包含了 200 条用于评估模型对中文医疗安全性的响应，包括诱导攻击和极端问题。
+- [CMtMedQA_test](data/CMtMedQA_test.json)：包含 1000 条用于评估模型多轮对话能力的测试集，其中还包含了 200 条用于评估模型对中文医疗安全性的响应，包括诱导攻击和极端问题。
+- [RLHF 部分示例数据](data/rlhf2000_7_31.json)：包含了 2000 条用于训练 奖励模型的数据。
 
 ## 评估结果
 
@@ -64,7 +65,7 @@ Zhongjing 的训练过程如下图所示：
 
 - 特别感谢 [hiyouga](https://github.com/hiyouga/LLaMA-Efficient-Tuning) 提供的 LLaMA 微调框架。
 - 本项目基于 [Ziya-LLaMA](https://huggingface.co/IDEA-CCNL/Ziya-LLaMA-13B-v1)。
-- 感谢提供 [CMed](https://github.com/Ziya-LLaMA) 数据集的创作者。
+- 感谢提供 [ChatMed_Consult_Dataset](https://huggingface.co/datasets/michaelwzhu/ChatMed_Consult_Dataset) 数据集的创作者。
 
 ## 引用
 

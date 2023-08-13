@@ -3,7 +3,7 @@
 # Zhongjing: Enhancing Chinese Medical Capabilities of Large Language Models through Expert Feedback and Real-world Multi-turn Dialogues
 
 <div align="center">
-  <img src="assets/logo.jpg" alt="Project Logo" width="50%">
+  <img src="assets/logo.jpg" alt="Project Logo" width="25%">
 </div>
 
 ## Overview
