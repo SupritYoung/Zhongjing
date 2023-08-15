@@ -102,7 +102,7 @@ Zhongjing 的训练过程如下图所示：
 ```text
 @article{yang2023zhongjing,
   title={Zhongjing: Enhancing the Chinese Medical Capabilities of Large Language Model through Expert Feedback and Real-world Multi-turn Dialogue},
-  author={Yang, Songhua and Zhao, Hanjia and Zhu, Senbin and Zhou, Guangyu and Xu, Hongfei and Jia, Yuxiang and Zan, Hongying},
+  author={Yang, Songhua and Zhao, Hanjie and Zhu, Senbin and Zhou, Guangyu and Xu, Hongfei and Jia, Yuxiang and Zan, Hongying},
   journal={arXiv preprint arXiv:2308.03549},
   year={2023}
 }
