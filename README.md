@@ -49,7 +49,7 @@ Zhongjing 的训练过程如下图所示：
 
 ## 数据 📚
 
-- [CMtMedQA](data/CMtMedQA.json)：包含 70,000 条多轮对话数据集，来源于真实医患交流，包含了大量的主动问询语句。
+- [CMtMedQA](https://huggingface.co/datasets/Suprit/CMtMedQA)：包含 70,000 条多轮对话数据集，来源于真实医患交流，包含了大量的主动问询语句。
 - [CMtMedQA_test](data/CMtMedQA_test.json)：包含 1000 条用于评估模型多轮对话能力的测试集，其中还包含了 200 条用于评估模型对中文医疗安全性的响应，包括诱导攻击和极端问题。
 - [RLHF 部分示例数据](data/rlhf2000_7_31.json)：包含了 2000 条用于训练 奖励模型的数据。
 
