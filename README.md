@@ -5,7 +5,7 @@
   <img src="assets/logo.jpg" alt="项目标志" width="25%">
 </div>
 
-## 概述
+## 概述 💪
 
 最近，以 ChatGPT 为代表的大型语言模型在许多领域取得了令人瞩目的表现。然而，由于医学等领域的复杂性和专业性，这些模型在特定领域（如医学）的表现相对较差。虽然一些中文医学大型模型已经出现，但它们主要是在质量参差不齐的单轮医疗对话上微调基础模型，导致改进有限。
 
@@ -15,24 +15,25 @@ Zhongjing-LLaMA 是首个实现了预训练、有监督微调和强化学习与�
 
 更多关于我们工作的详细信息，请参阅我们的论文：[Zhongjing: Enhancing the Chinese Medical Capabilities of Large Language Model through Expert Feedback and Real-world Multi-turn Dialogue](https://arxiv.org/abs/2308.03549)。
 
-## 更新
+## 更新 🥳
 
-- [x] [8-10] 已上传论文
-- [x] [8-13] 已上传测试集，公开训练方法和过程
-- [ ] 预训练对话模型已上传
-- [ ] 已发布完整的中文医学对话数据集 CMtMedQA
+- [x] [8-10] 🚀已上传论文
+- [x] [8-13] 🚀已上传测试集，公开训练方法和过程
+- [x] [8-16] 🚀已发布我们构建的中文医学多轮对话对话数据集 CMtMedQA
+- [ ] 预训练、对话模型上传
+- [ ] 奖励模型上传
 
-## 方法
+## 方法 🤔
 
 Zhongjing 的训练过程如下图所示：
 
 ![训练过程](assets/method.png)
 
-## 模型
+## 模型 💡
 
 - [ ] 我们的模型即将发布
 
-## 训练过程
+## 训练过程 🔧
 
 预训练损失可视化：
 
@@ -46,9 +47,9 @@ Zhongjing 的训练过程如下图所示：
 
 所有训练过程均展现出有效的收敛性。
 
-## 数据
+## 数据 📚
 
-- CMtMedQA：包含 70,000 条多轮对话的数据集，来源于真实医患交流。
+- [CMtMedQA](data/CMtMedQA.json)：包含 70,000 条多轮对话数据集，来源于真实医患交流，包含了大量的主动问询语句。
 - [CMtMedQA_test](data/CMtMedQA_test.json)：包含 1000 条用于评估模型多轮对话能力的测试集，其中还包含了 200 条用于评估模型对中文医疗安全性的响应，包括诱导攻击和极端问题。
 - [RLHF 部分示例数据](data/rlhf2000_7_31.json)：包含了 2000 条用于训练 奖励模型的数据。
 
@@ -66,7 +67,7 @@ Zhongjing 的训练过程如下图所示：
 ...
 ```
 
-## 评估结果
+## 评估结果 🔍
 
 ### 效果展示
 
@@ -82,11 +83,11 @@ Zhongjing 的训练过程如下图所示：
 
 ![评估结果](assets/eval.png)
 
-## 限制声明
+## 限制声明 🗝
 
 尽管我们的模型在中文医学能力方面取得了显著进展，但在安全性和专业性方面仍有提升的空间，可能在某些情况下会给出意料之外的回答。使用本模型一切风险自负。
 
-## 致谢
+## 致谢 🎊
 
 本项目由郑州大学[自然语言处理实验室](http://www5.zzu.edu.cn/nlp/index.htm)发起，感谢实验室各位老师的鼎力支持。
 
@@ -95,7 +96,7 @@ Zhongjing 的训练过程如下图所示：
 - 本项目基于 [Ziya-LLaMA](https://huggingface.co/IDEA-CCNL/Ziya-LLaMA-13B-v1)。
 - 感谢提供 [ChatMed_Consult_Dataset](https://huggingface.co/datasets/michaelwzhu/ChatMed_Consult_Dataset) 数据集的创作者。
 
-## 引用
+## 引用 😎
 
 如果您希望引用这个工作，请使用以下格式：
 
