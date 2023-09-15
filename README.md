@@ -97,7 +97,7 @@ Zhongjing 的训练过程如下图所示：
 
 ## 致谢 🎊
 
-本项目由郑州大学[自然语言处理实验室](http://www5.zzu.edu.cn/nlp/index.htm)发起，感谢实验室各位老师的鼎力支持。
+本项目由郑州大学[自然语言处理实验室](http://www5.zzu.edu.cn/nlp/index.htm)发起，负责同学有[杨松桦](https://github.com/SupritYoung)、赵汉杰、朱森彬，指导老师为贾玉祥、昝红英、[许鸿飞](https://github.com/hfxunlp)，感谢实验室各位老师的鼎力支持以及提供的宝贵数据和算力资源。
 
 - 我们使用的 [RLHF 工具](https://github.com/SupritYoung/RLHF-Label-Tool)。
 - 特别感谢 [hiyouga](https://github.com/hiyouga/LLaMA-Efficient-Tuning) 提供的 LLaMA 微调框架。
