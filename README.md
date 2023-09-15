@@ -20,8 +20,9 @@ Zhongjing-LLaMA 是首个实现了预训练、有监督微调和强化学习与�
 - [x] [8-10] 🚀已上传论文
 - [x] [8-13] 🚀已上传测试集，公开训练方法和过程
 - [x] [8-16] 🚀已发布我们构建的中文医学多轮对话对话数据集 CMtMedQA
-- [ ] 预训练模型、对话模型上传
-- [ ] 奖励模型上传
+- [x] [9-10] 预训练模型、对话模型上传
+- [x] [9-15] 奖励模型上传
+- [] 可视化页面
 
 ## 方法 🤔
 
@@ -31,7 +32,14 @@ Zhongjing 的训练过程如下图所示：
 
 ## 模型 💡
 
-- [ ] 我们的模型即将发布
+| 模型                     | 链接                                                       | 说明                                 |
+|------------------------|----------------------------------------------------------|------------------------------------|
+| Zhongjing-LLaMA-base   | [下载](https://huggingface.co/Suprit/Zhongjing-LLaMA-base) | 预训练过的医学底座模型                        |
+| Zhongjing-LLaMA-lora   | [下载](https://huggingface.co/Suprit/Zhongjing-LLaMA-lora) | 包含多轮 SFT、PPO 训练的多个 Lora 权重以及训练过程日志 |
+| Zhongjing-LLaMA-reward | [下载](https://huggingface.co/Suprit/Zhongjing-LLaMA-reward-v1) | 基于 base 模型训练得到的奖励模型                |
+
+使用方法：修改 `scripts/cli_demo.sh` 中的路径，直接运行即可。
+
 
 ## 训练过程 🔧
 
